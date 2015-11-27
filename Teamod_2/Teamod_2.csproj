@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{889DAFEF-D2C8-46AE-949D-BA51FB88D5E0}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Teamod_2</RootNamespace>
+    <AssemblyName>Teamod_2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Icone.ico</ApplicationIcon>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Axel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bgms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataFunctions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data_Base.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Demyx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DMABAR.cs" />
+    <Compile Include="Development_Aid_Class.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IopPlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IPersonnage.cs" />
+    <Compile Include="KH2FM_DataFonctions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Language.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Larxene.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lexaeus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Luxord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Marluxia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrganisationRoxas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PCSX2_DMA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Saix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SoraikoDesigner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vexen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Warp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xaldin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xemnas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xigbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="added_pictures.resx">
+      <DependentUpon>Program.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>added_pictures.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

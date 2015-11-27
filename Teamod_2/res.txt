@@ -1,0 +1,9 @@
+
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+			this.WindowContainer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("WindowContainer.BackgroundImage")));
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+			this.CloseButton.Image = ((System.Drawing.Image)(resources.GetObject("CloseButton.Image")));
+			this.MinimizeButton.Image = ((System.Drawing.Image)(resources.GetObject("MinimizeButton.Image")));
+			this.FaceContainer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FaceContainer.BackgroundImage")));
+			this.FaceContainer.Image = ((System.Drawing.Image)(resources.GetObject("FaceContainer.Image")));
+			this.WindowContainer.Image = ((System.Drawing.Image)(resources.GetObject("WindowContainer.Image")));

@@ -1,0 +1,6 @@
+A:\Documents\SharpDevelop Projects\Teamod_2\Teamod_2\bin\Release\Teamod_2.exe.config
+A:\Documents\SharpDevelop Projects\Teamod_2\Teamod_2\bin\Release\Teamod_2.exe
+A:\Documents\SharpDevelop Projects\Teamod_2\Teamod_2\obj\Release\Teamod_2.csprojResolveAssemblyReference.cache
+A:\Documents\SharpDevelop Projects\Teamod_2\Teamod_2\obj\Release\Teamod_2.MainForm.resources
+A:\Documents\SharpDevelop Projects\Teamod_2\Teamod_2\obj\Release\Teamod_2.csproj.GenerateResource.Cache
+A:\Documents\SharpDevelop Projects\Teamod_2\Teamod_2\obj\Release\Teamod_2.exe
